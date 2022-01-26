@@ -14,6 +14,9 @@
 		CE74E18D27A0B6930063CF94 /* ChallengeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE74E18B27A0B6930063CF94 /* ChallengeApp.xcdatamodeld */; };
 		CE74E18F27A0B69A0063CF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE74E18E27A0B69A0063CF94 /* Assets.xcassets */; };
 		CE74E19227A0B69A0063CF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE74E19027A0B69A0063CF94 /* LaunchScreen.storyboard */; };
+		CE74E19A27A0CE250063CF94 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74E19927A0CE250063CF94 /* Guide.swift */; };
+		CE74E19D27A1059E0063CF94 /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74E19B27A1059E0063CF94 /* GuideTableViewCell.swift */; };
+		CE74E19E27A1059E0063CF94 /* GuideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE74E19C27A1059E0063CF94 /* GuideTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CE74E18E27A0B69A0063CF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE74E19127A0B69A0063CF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE74E19327A0B69A0063CF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74E19927A0CE250063CF94 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		CE74E19B27A1059E0063CF94 /* GuideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
+		CE74E19C27A1059E0063CF94 /* GuideTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,14 @@
 				CE74E18227A0B6930063CF94 /* AppDelegate.swift */,
 				CE74E18427A0B6930063CF94 /* SceneDelegate.swift */,
 				CE74E18627A0B6930063CF94 /* ViewController.swift */,
+				CE74E19927A0CE250063CF94 /* Guide.swift */,
 				CE74E18827A0B6930063CF94 /* Main.storyboard */,
 				CE74E18E27A0B69A0063CF94 /* Assets.xcassets */,
 				CE74E19027A0B69A0063CF94 /* LaunchScreen.storyboard */,
 				CE74E19327A0B69A0063CF94 /* Info.plist */,
 				CE74E18B27A0B6930063CF94 /* ChallengeApp.xcdatamodeld */,
+				CE74E19B27A1059E0063CF94 /* GuideTableViewCell.swift */,
+				CE74E19C27A1059E0063CF94 /* GuideTableViewCell.xib */,
 			);
 			path = ChallengeApp;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE74E19E27A1059E0063CF94 /* GuideTableViewCell.xib in Resources */,
 				CE74E19227A0B69A0063CF94 /* LaunchScreen.storyboard in Resources */,
 				CE74E18F27A0B69A0063CF94 /* Assets.xcassets in Resources */,
 				CE74E18A27A0B6930063CF94 /* Main.storyboard in Resources */,
@@ -143,6 +153,8 @@
 			files = (
 				CE74E18727A0B6930063CF94 /* ViewController.swift in Sources */,
 				CE74E18D27A0B6930063CF94 /* ChallengeApp.xcdatamodeld in Sources */,
+				CE74E19D27A1059E0063CF94 /* GuideTableViewCell.swift in Sources */,
+				CE74E19A27A0CE250063CF94 /* Guide.swift in Sources */,
 				CE74E18327A0B6930063CF94 /* AppDelegate.swift in Sources */,
 				CE74E18527A0B6930063CF94 /* SceneDelegate.swift in Sources */,
 			);
