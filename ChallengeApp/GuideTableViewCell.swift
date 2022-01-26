@@ -15,7 +15,6 @@ class GuideTableViewCell: UITableViewCell {
     
     func setModel(_ model: GuideInfo) {
         nameLabel.text = model.name
-        //startLabel.text = model.startDate
         dateLabel.text = "Dates: \(model.startDate) - \(model.endDate)"
     }
     
