@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         getJsonData()
-        view.addSubview(tableView)
+        view.addSubview(tableView)//Milestone 3
         tableView.frame = view.bounds
         tableView.delegate = self
         tableView.dataSource = self
@@ -60,7 +60,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 if error != nil {
                     print(error!)
                     return
-                }
+                }//Milestone 2
                 if let safeData = data , let guide = self.parseJson(guideData: safeData) {
                     var sections = [GuideSection]()
                     for item in guide.data{
@@ -70,6 +70,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                             sectionToModify?.data.append(item)
                         } else {
                             // Create section
+                            //Milestone 4
                             let section = GuideSection(date: item.startDate, data: [item])
                             sections.append(section)
                         }
@@ -88,6 +89,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(Guide.self, from: guideData)
+            print(decodedData) //Milestone 1
             return decodedData
         } catch{
             print(error)
